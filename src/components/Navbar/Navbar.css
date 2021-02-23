@@ -1,0 +1,9 @@
+nav {
+    box-shadow: 0 0 #fff;
+    transition: all .6s ease-in-out;
+    font-family: Pacifico;
+    font-weight: 400;
+    background-color: rgba(205, 205, 205, 0.28);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}

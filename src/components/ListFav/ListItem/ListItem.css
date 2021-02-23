@@ -1,0 +1,68 @@
+li.list-fav {
+    transition: all ease-in-out 0.3s;
+    border    : 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.star {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid #FC0;
+    border-left: 0.3em solid transparent;
+    /* Controlls the size of the stars. */
+    font-size: 24px;
+  }
+  .star:before, .star:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid #FC0;
+    border-left: 1em solid transparent;
+    transform: rotate(-35deg);
+  }
+  .star:after {
+    transform: rotate(35deg);
+  }
+  
+  .star-b {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid rgb(255, 255, 255);
+    border-left: 0.3em solid transparent;
+    /* Controlls the size of the star-bs. */
+    font-size: 24px;
+  }
+  .star-b:before, .star-b:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid rgb(255, 255, 255);
+    border-left: 1em solid transparent;
+    transform: rotate(-35deg);
+  }
+  .star-b:after {
+    transform: rotate(35deg);
+  }
